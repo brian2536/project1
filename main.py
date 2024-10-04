@@ -8,7 +8,7 @@ if __name__ == "__main__":
         a = int(input("첫 번째 숫자를 입력하세요: "))
         b = int(input("두 번째 숫자를 입력하세요: "))
         addition, subtraction = add_subtract(a, b)
-        print(f"덧셈 결과는 {a}와 {b}의 합입니다: {add}")
+        print(f"{a} + {b} = {add}")
         print(f"{a} - {b} = {subtraction}")
     except ValueError:
         print("유효한 정수를 입력하세요.")
